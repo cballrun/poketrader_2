@@ -13,4 +13,11 @@ class CardFacade
     end
   end
 
+  def self.get_cards_by_set_name(name)
+    cards= CardService.search_cards_by_set_name(name)
+    cards[:data].map do |card|
+      Card.new(card)
+    end
+  end
+
 end
