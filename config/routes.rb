@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root to: 'landing#home'
+
+  get '/register', to: 'users#register'
 end
