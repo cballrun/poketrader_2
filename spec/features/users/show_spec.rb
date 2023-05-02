@@ -14,6 +14,12 @@ RSpec.describe 'the User Show Page' do
       expect(page).to have_content("#{@user_1.name}'s Dashboard")
       expect(page).to_not have_content("#{@user_2.name}'s Dashboard")
     end
+
+    it 'has button to take you to card search page' do
+      expect(page).to have_button("Search Cards")
+      click_button
+      expect(current_path).to eq("/users/#{@user_1.id}/search")
+    end
   end
 
 end
