@@ -1,0 +1,20 @@
+<h1>Search Results</h1>
+
+<%= render 'partials/search_button'%>
+
+<table id='card-table' class='center'>
+  <tr>
+    <th>Name</th>
+    <th>Series</th>
+  </tr>
+  <%@cards.each do |card|%>
+  <%#binding.pry %>
+  <tr class='card' id='card-<%=card.card_id%>'>
+    <td class='name'>
+      <%= link_to card.card_name, "/users/#{@user.id}/movies/#{card.card_id}"%>
+    </td>
+    <td class='series'>
+      <%=card.series_name%>
+    </td>
+  </tr>
+  <%end%>

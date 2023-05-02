@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'the Card Search Index Page' do
+RSpec.describe 'the Card Search Index Page', vcr: { record: :new_episodes }  do
   before :each do
     @user_1 = User.create!(email: 'misty@ceruleangym.org', name: 'Misty')
     @user_2 = User.create!(name: 'Brock', email: 'brock@pewtergym.org')
@@ -13,7 +13,7 @@ RSpec.describe 'the Card Search Index Page' do
       it 'returns cards where the name includes the search term' do
         fill_in 'Card Search', with: 'wurmple'
         click_button 'Search'
-
+        
         expect(page).to have_content('Wurmple')
 
       end
