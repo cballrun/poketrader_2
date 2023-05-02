@@ -23,4 +23,26 @@ RSpec.describe CardService do
 
     end
   end
+
+  describe 'search' do
+    it 'can search cards with a cards full name', vcr: { record: :new_episodes } do
+      data_hash = CardService.search_cards_by_name("wurmple")
+      card_array = data_hash[:data]
+
+      expect(card_array).to be_a(Array)
+      expect(card_array.count).to be_a(Integer)
+      card_array.each do |card|
+        expect(card).to be_a(Hash)
+        expect(card[:id]).to be_a(String)
+        expect(card[:supertype]).to be_a(String)
+        expect(card[:set]).to be_a(Hash)
+        expect(card[:set][:name]).to be_a(String)
+        expect(card[:set][:series]).to be_a(String)
+        expect(card[:set][:images].count).to eq(2)
+        expect(card[:images][:small]).to be_a(String)
+        expect(card[:cardmarket][:prices][:averageSellPrice]).to be_a(Float)
+      end
+    end
+
+  end
 end

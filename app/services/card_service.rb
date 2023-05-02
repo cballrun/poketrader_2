@@ -4,6 +4,11 @@ class CardService
     parse(response.body)
   end
 
+  def self.search_cards_by_name(query)
+    response = conn.get("v2/cards/?q=name:#{query}*")
+    parse(response.body)
+  end
+
   def self.conn
     Faraday.new("https://api.pokemontcg.io")
   end
