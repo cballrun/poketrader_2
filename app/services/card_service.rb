@@ -1,16 +1,16 @@
 class CardService
-  def self.get_card_data(card_id)
+  def self.get_card_by_id(card_id)
     response = conn.get("/v2/cards/#{card_id}")
     parse(response.body)
   end
 
-  def self.search_cards_by_name(query) #add in partial search later
-    response = conn.get("v2/cards/?q=name:#{query}*")
+  def self.search_cards_by_name(name) #add in partial search later
+    response = conn.get("v2/cards/?q=name:#{name}*")
     parse(response.body)
   end
 
-  def self.search_cards_by_set_name(query)
-    response = conn.get("v2/cards/?q=set.name:#{query}") #add in partial search later
+  def self.search_cards_by_set_name(set)
+    response = conn.get("v2/cards/?q=set.name:#{set}") #add in partial search later
     parse(response.body)
   end
 

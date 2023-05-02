@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe CardService do
   describe 'API endpoint' do
     it 'can get the information needed to create a Pokemon card object', vcr: { record: :new_episodes } do
-      data_hash = CardService.get_card_data('xy1-1')
+      data_hash = CardService.get_card_data_by_id('xy1-1')
       card_data = data_hash[:data]
       set_data = card_data[:set]
 
