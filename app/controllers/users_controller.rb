@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   end
 
   def search
-    
+    @user = User.find(params[:id])
   end
 
   private 
