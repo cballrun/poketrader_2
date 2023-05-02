@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   root to: 'landing#home'
 
   get '/register', to: 'users#register'
+
+  resources :users, only: [:create, :show]
 end
