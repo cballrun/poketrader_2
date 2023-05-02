@@ -27,6 +27,34 @@ RSpec.describe 'the User Registration Page' do
           
         end
       end
+
+      context 'given invalid data' do
+        it 'redirects to the registration page with error message on how to fix the error' do
+          fill_in "Name", with: ''
+          fill_in "Email", with: ''
+          expect { click_on 'Register' }.to change { User.count }.by(0)
+          expect(page).to have_content("Email can't be blank")
+          expect(page).to have_content("Name can't be blank")
+          expect(current_path).to eq("/register")
+        end
+      end
+  
+      context 'given a duplicate email' do
+        it 'redirects to the registration page with error message on how to fix the error' do
+          fill_in "Name", with: "Ricky"
+          fill_in "Email", with: "ricky@sunnyvale.ca"
+          click_on "Register"
+  
+          visit "/register"
+  
+          fill_in "Name", with: "Ricky"
+          fill_in "Email", with: "ricky@sunnyvale.ca"
+  
+          expect { click_on 'Register' }.to change { User.count }.by(0)
+          expect(page).to have_content("Email has already been taken")
+          expect(current_path).to eq("/register")
+        end
+      end
     end
   end
 end
