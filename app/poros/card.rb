@@ -16,7 +16,7 @@ class Card
     @card_name = data[:name]
     @supertype = data[:supertype]
     @rarity = data[:rarity]
-    @stock_image = data[:images][:small]
+    @image = data[:images][:small]
     @release_date = data[:set][:releaseDate]
     @set_name = data[:set][:name]
     @series_name = data[:set][:series]
