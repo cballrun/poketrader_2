@@ -3,7 +3,7 @@ class CreateOwnedCards < ActiveRecord::Migration[7.0]
     create_table :owned_cards do |t|
       t.string :card_id
       t.string :image
-      t.string :condition
+      t.integer :condition
       t.string :language
       t.references :user, null: false, foreign_key: true
 

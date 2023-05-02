@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_02_003720) do
   create_table "owned_cards", force: :cascade do |t|
     t.string "card_id"
     t.string "image"
-    t.string "condition"
+    t.integer "condition"
     t.string "language"
     t.bigint "user_id", null: false
     t.datetime "created_at", null: false
