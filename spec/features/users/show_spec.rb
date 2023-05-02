@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe 'the User Show Page' do
 
   before :each do
-    @user_1 = User.create!(email: 'epintozzi@turing.edu', name: 'epintozzi@turing.edu')
-    @user_2 = User.create!(name: 'Mike', email: 'mike@turing.edu')
+    @user_1 = User.create!(email: 'misty@ceruleangym.org', name: 'Misty')
+    @user_2 = User.create!(name: 'Brock', email: 'brock@pewtergym.org')
 
     visit "/users/#{@user_1.id}"
   end
@@ -19,6 +19,7 @@ RSpec.describe 'the User Show Page' do
       expect(page).to have_button("Search Cards")
       click_button
       expect(current_path).to eq("/users/#{@user_1.id}/search")
+
     end
   end
 
