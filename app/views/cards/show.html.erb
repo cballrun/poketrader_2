@@ -1,0 +1,37 @@
+<h1> <%= @card.card_name %> </h1>
+
+<section id= "buttons" style='margin-bottom:50px' >
+  <%= render 'partials/search_button'%>
+  <br>
+  <div id= "add_card_button">
+    <%= button_to "Add #{@card.card_name} To Collection", "/users/#{params[:user_id]}/cards/#{params[:id]}/owned-cards/new", method: :get %>
+  </div>
+</section>
+
+<br>
+<br>
+
+
+<div style='text-align: left;'>
+  <section id= "card_details" >
+    <div style='font-weight: bold; border-bottom:3px solid; padding: 3px'>
+      <span class='stats'> 
+        Set: <%= @card.set_name %> 
+      </span>
+      <span class='stats'>
+        Series: <%= @card.series_name %> 
+      </span>
+      <span class='stats'>
+        Released: <%= @card.release_date %>
+      </span>
+      <span class='stats'>
+        Est. Value: <%= @card.market_value %>
+      </span>
+    </div>
+
+    <div id="card_image">
+      <h4> Image </h4>
+      <img src=<%= @card.image %> alt=<% @card.card_name %>>
+    </div>
+
+      
