@@ -12,7 +12,7 @@ RSpec.describe 'the Card Search Show Page', vcr: { record: :new_episodes }  do
   describe 'card details section' do
     it 'shows the cards details and picture' do
       expect(page).to have_content("Gengar")
-      binding.pry
+
       within("#card_details") do
         expect(page).to have_content("Set:")
         expect(page).to have_content("Series:")
@@ -24,6 +24,12 @@ RSpec.describe 'the Card Search Show Page', vcr: { record: :new_episodes }  do
       within("#card_image") do
         expect(page).to have_content("Image")
       end
+    end
+  end
+
+  describe 'buttons section' do
+    it 'routes the user to add a card to their collection' do
+      click_on("Add Dark Gengar To Collection")
     end
   end
 end

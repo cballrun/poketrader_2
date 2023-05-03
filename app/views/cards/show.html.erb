@@ -1,5 +1,13 @@
 <h1> <%= @card.card_name %> </h1>
 
+<section id= "buttons" style='margin-bottom:50px' >
+  <%= render 'partials/search_button'%>
+  <br>
+  <div id= "add_card_button">
+    <%= button_to "Add #{@card.card_name} To Collection", "/users/#{params[:user_id]}/cards/#{params[:id]}/owned-cards/new", method: :get %>
+  </div>
+</section>
+
 <br>
 <br>
 
