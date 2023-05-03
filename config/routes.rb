@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get '/register', to: 'users#register'
   get 'users/:id/search', to: 'users#search'
   get "/users/:user_id/cards/:card_id/owned-cards/new", to: 'owned_cards#new'
+  post "/users/:user_id/movies/:movie_id/viewing-party/create", to: 'parties#create'
+
 
   resources :users, only: [:create, :show] do
     resources :cards, only: [:index, :show]

@@ -1,0 +1,17 @@
+<h2> Add <%= @card.set_name %> <%= @card.card_name %> to your collection </h2>
+
+<div style='border: 2px solid; padding: 10px'>
+  <h3 style='margin:0px'>Your Card's Details</h3>
+  <br>
+  
+  <%= form_with url: "/users/#{params[:user_id]}/cards/#{@card.card_id}/owned-card/create", method: :post, local: true, class: 'new-party' do |f| %>
+    <%= f.label :condition, "Condition" %>
+    <%= f.text_field :condition, value: "NM, LP, MP, HP, or DMG" %> <%# this needs to be updated to a dropdown%>
+    <br>
+
+    <%= f.label :language, "Language" %>
+    <%= f.text_field :language %>
+    <br>
+    <%= f.submit "Add Card" %>
+  <% end %>
+</div>
