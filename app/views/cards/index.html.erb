@@ -1,0 +1,27 @@
+<h1>Search Results</h1>
+
+<%= render 'partials/search_button'%>
+
+<table id='card_table' class='center'>
+  <tr>
+    <th>Name</th>
+    <th>Series</th>
+    <th>Set</th>
+    <th>Market Value</th>
+  </tr>
+  <%@cards.each do |card|%>
+  <tr class='card' id='card-<%=card.card_id%>'>
+    <td class='name'>
+      <%= link_to card.card_name, "/users/#{@user.id}/cards/#{card.card_id}"%>
+    </td>
+    <td class='series' id='series-<%=card.series_name%>'>
+      <%=card.series_name%>
+    </td>
+    <td class='set' id='series-<%=card.set_name%>'>
+      <%=card.set_name%>
+    </td>
+    <td class='market_value' id='series-<%=card.set_name%>'>
+      <%=card.market_value%>
+    </td>
+  </tr>
+  <%end%>

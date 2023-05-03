@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pokemontcg.io/v2/cards/?q=name:wurmple*
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 02 May 2023 20:22:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"afb6c76f05e02a3022c27ba6481228e6"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 4fb8a784-fefa-444a-8927-ffaa3b74b436
+      X-Runtime:
+      - '0.441822'
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=57nyjKVPIaJbAB5Wcz4ZCSkmPeGiaI%2BZcUapSOPJ5DHjZ6EswH51TmCLE7LbR3kjVPkNAkH3r4Pw96N6lwEecLkuoeVtxrimt7n2X7bO%2BvA%2B5nh2nSM9cz45VcPoz7PkCUcVIsUmy6Ytg6UliWYv"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c12f9dbe87f1386-ATL
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"bw6-6","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Sleep
+        Poison","cost":["Colorless"],"convertedEnergyCost":1,"damage":"","text":"Flip
+        a coin. If heads, the Defending Pokémon is now Asleep and Poisoned."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"bw6","name":"Dragons
+        Exalted","series":"Black & White","printedTotal":124,"total":128,"legalities":{"unlimited":"Legal","expanded":"Legal"},"ptcgoCode":"DRX","releaseDate":"2012/08/15","updatedAt":"2018/03/04
+        10:35:00","images":{"symbol":"https://images.pokemontcg.io/bw6/symbol.png","logo":"https://images.pokemontcg.io/bw6/logo.png"}},"number":"6","artist":"Kouki
+        Saitou","rarity":"Common","flavorText":"Often targeted by bird Pokémon, it
+        desperately resists by releasing poison from its tail spikes.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal","expanded":"Legal"},"images":{"small":"https://images.pokemontcg.io/bw6/6.png","large":"https://images.pokemontcg.io/bw6/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/bw6-6","updatedAt":"2023/05/02","prices":{"normal":{"low":0.1,"mid":0.25,"high":2.79,"market":0.22,"directLow":0.2},"reverseHolofoil":{"low":0.41,"mid":0.5,"high":1.0,"market":0.44,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/bw6-6","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.1,"lowPrice":0.02,"trendPrice":0.07,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.29,"reverseHoloTrend":0.83,"lowPriceExPlus":0.02,"avg1":0.1,"avg7":0.1,"avg30":0.09,"reverseHoloAvg1":0.44,"reverseHoloAvg7":0.95,"reverseHoloAvg30":0.43}}},{"id":"xy6-3","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Flock","cost":["Grass"],"convertedEnergyCost":1,"damage":"","text":"Search
+        your deck for Wurmple and put it onto your Bench. Shuffle your deck afterward."},{"name":"Tackle","cost":["Colorless","Colorless"],"convertedEnergyCost":2,"damage":"20","text":""}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"xy6","name":"Roaring
+        Skies","series":"XY","printedTotal":108,"total":112,"legalities":{"unlimited":"Legal","expanded":"Legal"},"ptcgoCode":"ROS","releaseDate":"2015/05/06","updatedAt":"2020/08/14
+        09:35:00","images":{"symbol":"https://images.pokemontcg.io/xy6/symbol.png","logo":"https://images.pokemontcg.io/xy6/logo.png"}},"number":"3","artist":"Naoyo
+        Kimura","rarity":"Common","flavorText":"It lives among the tall grass and
+        in forests. It repels attacks by raising up the spikes on its rear.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal","expanded":"Legal"},"images":{"small":"https://images.pokemontcg.io/xy6/3.png","large":"https://images.pokemontcg.io/xy6/3_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/xy6-3","updatedAt":"2023/05/02","prices":{"normal":{"low":0.02,"mid":0.2,"high":4.14,"market":0.14,"directLow":null},"reverseHolofoil":{"low":0.11,"mid":0.3,"high":2.97,"market":0.22,"directLow":0.25}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/xy6-3","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.12,"lowPrice":0.02,"trendPrice":0.11,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.55,"reverseHoloLow":0.1,"reverseHoloTrend":0.38,"lowPriceExPlus":0.02,"avg1":0.09,"avg7":0.1,"avg30":0.09,"reverseHoloAvg1":0.23,"reverseHoloAvg7":0.43,"reverseHoloAvg30":0.3}}},{"id":"sm8-23","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Ram","cost":["Colorless"],"convertedEnergyCost":1,"damage":"10","text":""}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"sm8","name":"Lost
+        Thunder","series":"Sun & Moon","printedTotal":214,"total":240,"legalities":{"unlimited":"Legal","expanded":"Legal"},"ptcgoCode":"LOT","releaseDate":"2018/11/02","updatedAt":"2020/08/14
+        09:35:00","images":{"symbol":"https://images.pokemontcg.io/sm8/symbol.png","logo":"https://images.pokemontcg.io/sm8/logo.png"}},"number":"23","artist":"kirisAki","rarity":"Common","flavorText":"It
+        lives among the tall grass and in forests. It repels attacks by raising up
+        the spikes on its rear.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal","expanded":"Legal"},"images":{"small":"https://images.pokemontcg.io/sm8/23.png","large":"https://images.pokemontcg.io/sm8/23_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/sm8-23","updatedAt":"2023/05/02","prices":{"normal":{"low":0.05,"mid":0.2,"high":5.0,"market":0.14,"directLow":0.12},"reverseHolofoil":{"low":0.1,"mid":0.29,"high":1.5,"market":0.25,"directLow":0.2}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/sm8-23","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.06,"lowPrice":0.02,"trendPrice":0.07,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.05,"reverseHoloTrend":0.22,"lowPriceExPlus":0.02,"avg1":0.09,"avg7":0.06,"avg30":0.07,"reverseHoloAvg1":0.05,"reverseHoloAvg7":0.2,"reverseHoloAvg30":0.24}}},{"id":"sm8-24","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Poison
+        Sting","cost":["Grass"],"convertedEnergyCost":1,"damage":"","text":"Your opponent''s
+        Active Pokémon is now Poisoned."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"sm8","name":"Lost
+        Thunder","series":"Sun & Moon","printedTotal":214,"total":240,"legalities":{"unlimited":"Legal","expanded":"Legal"},"ptcgoCode":"LOT","releaseDate":"2018/11/02","updatedAt":"2020/08/14
+        09:35:00","images":{"symbol":"https://images.pokemontcg.io/sm8/symbol.png","logo":"https://images.pokemontcg.io/sm8/logo.png"}},"number":"24","artist":"Mina
+        Nakai","rarity":"Common","flavorText":"It lives among the tall grass and in
+        forests. It repels attacks by raising up the spikes on its rear.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal","expanded":"Legal"},"images":{"small":"https://images.pokemontcg.io/sm8/24.png","large":"https://images.pokemontcg.io/sm8/24_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/sm8-24","updatedAt":"2023/05/02","prices":{"normal":{"low":0.04,"mid":0.22,"high":1.22,"market":0.15,"directLow":0.1},"reverseHolofoil":{"low":0.16,"mid":0.34,"high":2.0,"market":0.33,"directLow":0.3}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/sm8-24","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.1,"lowPrice":0.02,"trendPrice":0.08,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.16,"reverseHoloLow":0.1,"reverseHoloTrend":0.35,"lowPriceExPlus":0.02,"avg1":0.05,"avg7":0.09,"avg30":0.08,"reverseHoloAvg1":0.2,"reverseHoloAvg7":0.32,"reverseHoloAvg30":0.29}}},{"id":"ex12-70","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"abilities":[{"name":"Poison
+        Payback","text":"If Wurmple is your Active Pokémon and is damaged by an opponent''s
+        attack (even if Wurmple is Knocked Out), the Attacking Pokémon is now Poisoned.","type":"Poké-Body"}],"attacks":[{"name":"String
+        Pull","cost":["Colorless"],"convertedEnergyCost":1,"damage":"","text":"Switch
+        1 of your opponent''s Benched Pokémon with 1 of the Defending Pokémon. Your
+        opponent chooses the Defending Pokémon to switch."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"ex12","name":"Legend
+        Maker","series":"EX","printedTotal":92,"total":93,"legalities":{"unlimited":"Legal"},"ptcgoCode":"LM","releaseDate":"2006/02/01","updatedAt":"2018/03/04
+        10:35:00","images":{"symbol":"https://images.pokemontcg.io/ex12/symbol.png","logo":"https://images.pokemontcg.io/ex12/logo.png"}},"number":"70","artist":"Yukiko
+        Baba","rarity":"Common","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/ex12/70.png","large":"https://images.pokemontcg.io/ex12/70_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/ex12-70","updatedAt":"2023/05/02","prices":{"normal":{"low":0.25,"mid":0.31,"high":3.29,"market":0.3,"directLow":0.25},"reverseHolofoil":{"low":1.0,"mid":2.09,"high":3.0,"market":2.19,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/ex12-70","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.12,"lowPrice":0.02,"trendPrice":0.14,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":4.5,"reverseHoloLow":0.05,"reverseHoloTrend":2.82,"lowPriceExPlus":0.04,"avg1":0.15,"avg7":0.09,"avg30":0.13,"reverseHoloAvg1":4.5,"reverseHoloAvg7":2.92,"reverseHoloAvg30":2.32}}},{"id":"ex3-81","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Call
+        for Friends","cost":["Colorless"],"convertedEnergyCost":1,"damage":"","text":"Search
+        your deck for Grass Basic Pokémon and put as many of them as you like onto
+        your Bench. Shuffle your deck afterward."},{"name":"String Shot","cost":["Colorless"],"convertedEnergyCost":1,"damage":"10","text":"Flip
+        a coin. If heads, the Defending Pokémon is now Paralyzed."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"ex3","name":"Dragon","series":"EX","printedTotal":97,"total":100,"legalities":{"unlimited":"Legal"},"ptcgoCode":"DR","releaseDate":"2003/09/18","updatedAt":"2019/01/28
+        16:44:00","images":{"symbol":"https://images.pokemontcg.io/ex3/symbol.png","logo":"https://images.pokemontcg.io/ex3/logo.png"}},"number":"81","artist":"Midori
+        Harada","rarity":"Common","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/ex3/81.png","large":"https://images.pokemontcg.io/ex3/81_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/ex3-81","updatedAt":"2023/05/02","prices":{"normal":{"low":0.32,"mid":0.49,"high":3.29,"market":0.48,"directLow":null},"reverseHolofoil":{"low":0.99,"mid":2.62,"high":3.49,"market":2.97,"directLow":0.85}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/ex3-81","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.1,"lowPrice":0.02,"trendPrice":0.07,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.1,"reverseHoloTrend":1.11,"lowPriceExPlus":0.05,"avg1":0.02,"avg7":0.1,"avg30":0.22,"reverseHoloAvg1":0.5,"reverseHoloAvg7":1.26,"reverseHoloAvg30":0.93}}},{"id":"ex8-82","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Ascension","cost":["Colorless"],"convertedEnergyCost":1,"damage":"","text":"Search
+        your deck for a card that evolves from Wurmple and put it on Wurmple. (This
+        counts as evolving Wurmple.) Shuffle your deck afterward."},{"name":"Miracle
+        Essence","cost":["Grass"],"convertedEnergyCost":1,"damage":"","text":"Flip
+        a coin. If heads, choose 1 Special Condition. Each Defending Pokémon is now
+        affected by that Special Condition."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"ex8","name":"Deoxys","series":"EX","printedTotal":107,"total":108,"legalities":{"unlimited":"Legal"},"ptcgoCode":"DX","releaseDate":"2005/02/01","updatedAt":"2019/01/28
+        16:44:00","images":{"symbol":"https://images.pokemontcg.io/ex8/symbol.png","logo":"https://images.pokemontcg.io/ex8/logo.png"}},"number":"82","artist":"Kagemaru
+        Himeno","rarity":"Common","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/ex8/82.png","large":"https://images.pokemontcg.io/ex8/82_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/ex8-82","updatedAt":"2023/05/02","prices":{"normal":{"low":0.15,"mid":0.49,"high":3.34,"market":0.56,"directLow":0.29},"reverseHolofoil":{"low":2.99,"mid":4.46,"high":8.86,"market":5.86,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/ex8-82","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.15,"lowPrice":0.02,"trendPrice":0.19,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":5.95,"reverseHoloLow":1.5,"reverseHoloTrend":6.19,"lowPriceExPlus":0.06,"avg1":0.02,"avg7":0.09,"avg30":0.22,"reverseHoloAvg1":5.95,"reverseHoloAvg7":6.62,"reverseHoloAvg30":2.99}}},{"id":"ex1-78","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Signs
+        of Evolution","cost":["Colorless"],"convertedEnergyCost":1,"damage":"","text":"Search
+        your deck for Silcoon and Beautifly, or Cascoon and Dustox cards. Show 1 card
+        or both cards of a pair to your opponent and put them into your hand. Shuffle
+        your deck afterward."},{"name":"Poison Barb","cost":["Grass"],"convertedEnergyCost":1,"damage":"","text":"The
+        Defending Pokémon is now Poisoned."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"ex1","name":"Ruby
+        & Sapphire","series":"EX","printedTotal":109,"total":109,"legalities":{"unlimited":"Legal"},"ptcgoCode":"RS","releaseDate":"2003/07/01","updatedAt":"2018/03/04
+        10:35:00","images":{"symbol":"https://images.pokemontcg.io/ex1/symbol.png","logo":"https://images.pokemontcg.io/ex1/logo.png"}},"number":"78","artist":"Hajime
+        Kusajima","rarity":"Common","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/ex1/78.png","large":"https://images.pokemontcg.io/ex1/78_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/ex1-78","updatedAt":"2023/05/02","prices":{"normal":{"low":0.25,"mid":0.6,"high":4.97,"market":0.58,"directLow":null},"reverseHolofoil":{"low":2.0,"mid":2.49,"high":3.44,"market":3.71,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/ex1-78","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.26,"lowPrice":0.02,"trendPrice":0.15,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.29,"reverseHoloTrend":3.02,"lowPriceExPlus":0.02,"avg1":0.1,"avg7":0.2,"avg30":0.28,"reverseHoloAvg1":1.99,"reverseHoloAvg7":2.73,"reverseHoloAvg30":2.36}}},{"id":"pl1-103","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"level":"5","hp":"50","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Ram","cost":["Colorless"],"convertedEnergyCost":1,"damage":"10","text":""},{"name":"Poison
+        Sting","cost":["Grass","Colorless"],"convertedEnergyCost":2,"damage":"20","text":"Flip
+        a coin. If heads, the Defending Pokémon is now Poisoned."}],"weaknesses":[{"type":"Fire","value":"+10"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"pl1","name":"Platinum","series":"Platinum","printedTotal":127,"total":133,"legalities":{"unlimited":"Legal"},"ptcgoCode":"PL","releaseDate":"2009/02/11","updatedAt":"2020/08/14
+        09:35:00","images":{"symbol":"https://images.pokemontcg.io/pl1/symbol.png","logo":"https://images.pokemontcg.io/pl1/logo.png"}},"number":"103","artist":"Yuka
+        Morii","rarity":"Common","flavorText":"Often targeted by bird Pokémon, it
+        desperately resists by releasing poison from its tail spikes.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/pl1/103.png","large":"https://images.pokemontcg.io/pl1/103_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/pl1-103","updatedAt":"2023/05/02","prices":{"normal":{"low":0.12,"mid":0.3,"high":3.99,"market":0.27,"directLow":0.2},"reverseHolofoil":{"low":0.16,"mid":1.12,"high":1.99,"market":0.16,"directLow":0.78}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/pl1-103","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.15,"lowPrice":0.02,"trendPrice":0.15,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.62,"reverseHoloLow":0.1,"reverseHoloTrend":0.53,"lowPriceExPlus":0.02,"avg1":0.1,"avg7":0.16,"avg30":0.1,"reverseHoloAvg1":0.62,"reverseHoloAvg7":0.6,"reverseHoloAvg30":0.38}}},{"id":"dp1-104","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"level":"7","hp":"50","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Needling
+        Sting","cost":["Colorless"],"convertedEnergyCost":1,"damage":"10+","text":"Flip
+        a coin. If heads, this attack does 10 damage plus 10 more damage."},{"name":"String
+        Shot","cost":["Grass"],"convertedEnergyCost":1,"damage":"10","text":"Flip
+        a coin. If heads, the Defending Pokémon is now Paralyzed."}],"weaknesses":[{"type":"Fire","value":"+10"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"dp1","name":"Diamond
+        & Pearl","series":"Diamond & Pearl","printedTotal":130,"total":130,"legalities":{"unlimited":"Legal"},"ptcgoCode":"DP","releaseDate":"2007/05/01","updatedAt":"2020/08/14
+        09:35:00","images":{"symbol":"https://images.pokemontcg.io/dp1/symbol.png","logo":"https://images.pokemontcg.io/dp1/logo.png"}},"number":"104","artist":"Ken
+        Sugimori","rarity":"Common","flavorText":"It loves to eat leaves. If it is
+        attacked by a STARLY, it will defend itself with its spiked rear.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/dp1/104.png","large":"https://images.pokemontcg.io/dp1/104_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/dp1-104","updatedAt":"2023/05/02","prices":{"normal":{"low":0.08,"mid":0.25,"high":1.14,"market":0.2,"directLow":0.1},"reverseHolofoil":{"low":0.31,"mid":1.15,"high":4.47,"market":1.49,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/dp1-104","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.11,"lowPrice":0.02,"trendPrice":0.1,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.43,"reverseHoloLow":0.1,"reverseHoloTrend":0.76,"lowPriceExPlus":0.04,"avg1":0.04,"avg7":0.14,"avg30":0.11,"reverseHoloAvg1":0.08,"reverseHoloAvg7":0.39,"reverseHoloAvg30":0.67}}},{"id":"swsh11-6","name":"Wurmple","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Grass"],"evolvesTo":["Silcoon","Cascoon"],"attacks":[{"name":"Sting","cost":["Grass"],"convertedEnergyCost":1,"damage":"10","text":""},{"name":"Creepy-Crawly
+        Congregation","cost":["Grass","Grass","Grass"],"convertedEnergyCost":3,"damage":"","text":"Search
+        your deck for any number of Wurmple, Silcoon, Beautifly, Cascoon, and Dustox,
+        reveal them, and put them into your hand. Then, shuffle your deck."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless"],"convertedRetreatCost":1,"set":{"id":"swsh11","name":"Lost
+        Origin","series":"Sword & Shield","printedTotal":196,"total":217,"legalities":{"unlimited":"Legal","standard":"Legal","expanded":"Legal"},"ptcgoCode":"LOR","releaseDate":"2022/09/09","updatedAt":"2022/09/09
+        13:45:00","images":{"symbol":"https://images.pokemontcg.io/swsh11/symbol.png","logo":"https://images.pokemontcg.io/swsh11/logo.png"}},"number":"6","artist":"ryoma
+        uratsuka","rarity":"Common","flavorText":"It lives among the tall grass and
+        in forests. It repels attacks by raising up the spikes on its rear.","nationalPokedexNumbers":[265],"legalities":{"unlimited":"Legal","standard":"Legal","expanded":"Legal"},"regulationMark":"F","images":{"small":"https://images.pokemontcg.io/swsh11/6.png","large":"https://images.pokemontcg.io/swsh11/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/swsh11-6","updatedAt":"2023/05/02","prices":{"reverseHolofoil":{"low":0.01,"mid":0.2,"high":1.15,"market":0.12,"directLow":0.09},"normal":{"low":0.01,"mid":0.05,"high":2.0,"market":0.03,"directLow":0.01}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/swsh11-6","updatedAt":"2023/05/02","prices":{"averageSellPrice":0.03,"lowPrice":0.01,"trendPrice":0.03,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.1,"reverseHoloLow":0.02,"reverseHoloTrend":0.1,"lowPriceExPlus":0.01,"avg1":0.04,"avg7":0.02,"avg30":0.03,"reverseHoloAvg1":0.12,"reverseHoloAvg7":0.04,"reverseHoloAvg30":0.09}}}],"page":1,"pageSize":250,"count":11,"totalCount":11}'
+  recorded_at: Tue, 02 May 2023 20:22:23 GMT
+recorded_with: VCR 6.1.0

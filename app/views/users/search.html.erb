@@ -1,0 +1,9 @@
+<h1>Search Cards</h1>
+
+<section id= "card_search" >
+<%= form_with url: "/users/#{@user.id}/cards", method: :get, local: true do |f| %>
+  <%= f.label :q, "Card Search" %>
+  <%= f.text_field :q %>
+  <%= f.submit "Search" %>
+<% end %>
+</section>
