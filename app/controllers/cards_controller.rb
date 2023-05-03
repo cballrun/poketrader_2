@@ -6,7 +6,7 @@ class CardsController < ApplicationController
   end
 
   def show
-    binding.pry
+    @card = CardFacade.card_by_id(params[:id])
   end
 
 end

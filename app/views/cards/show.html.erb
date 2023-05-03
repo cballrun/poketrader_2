@@ -1,0 +1,25 @@
+<h1> <%= @card.card_name %> </h1>
+
+<br>
+<br>
+
+
+<div style='text-align: left;'>
+  <section id= "card_details" >
+    <div style='font-weight: bold; border-bottom:3px solid; padding: 3px'>
+      <span class='stats'> 
+        Set: <%= @card.set_name %> 
+      </span>
+      <span class='stats'>
+        Series: <%= @card.series_name %> 
+      </span>
+      <span class='stats'>
+        Released: <%= @card.release_date %>
+      </span>
+      <span class='stats'>
+        Est. Value: <%= @card.market_value %>
+      </span>
+
+      </div>
+
+      
