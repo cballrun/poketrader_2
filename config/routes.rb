@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   get 'users/:id/search', to: 'users#search'
 
   resources :users, only: [:create, :show] do
-    resources :cards, only: [:index]
+    resources :cards, only: [:index, :show]
   end
 end

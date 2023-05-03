@@ -5,4 +5,8 @@ class CardsController < ApplicationController
     @cards = CardFacade.get_cards_by_name(params[:q])
   end
 
+  def show
+    binding.pry
+  end
+
 end
