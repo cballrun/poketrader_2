@@ -10,14 +10,19 @@ RSpec.describe 'the Card Search Show Page', vcr: { record: :new_episodes }  do
   end
     
   describe 'card details section' do
-    it 'shows the cards details' do
+    it 'shows the cards details and picture' do
       expect(page).to have_content("Gengar")
+      binding.pry
       within("#card_details") do
         expect(page).to have_content("Set:")
         expect(page).to have_content("Series:")
         expect(page).to have_content("Released:")
         expect(page).to have_content("Est. Value:")
 
+      end
+      
+      within("#card_image") do
+        expect(page).to have_content("Image")
       end
     end
   end
