@@ -16,6 +16,10 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @owned_cards = @user.owned_cards
+    @cards = @owned_cards.map do |card|
+      CardFacade.card_by_id(card.card_id)
+    end
   end
 
   def search
@@ -27,3 +31,8 @@ class UsersController < ApplicationController
     params.permit(:name, :email)
   end
 end
+
+# @cards_array= []
+# @owned_cards.each do |card|
+#   @cards_array << CardFacade.card_by_id(card.card_id)
+# end

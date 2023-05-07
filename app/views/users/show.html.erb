@@ -4,4 +4,17 @@
   <%= render 'partials/search_button'%>
 </section>
 
+<section id="user_cards">
+  <% @cards.each do |card| %>
+    Name: <%= card.card_name %> <br>
+    Type: <%= card.supertype %> <br>
+    Set: <%= card.set_name %> <br>
+    
+    <% end %>
+
+
+</section>
+
+
+
   

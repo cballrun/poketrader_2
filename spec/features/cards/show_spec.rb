@@ -30,6 +30,8 @@ RSpec.describe 'the Card Search Show Page', vcr: { record: :new_episodes }  do
   describe 'buttons section' do
     it 'routes the user to add a card to their collection' do
       click_on("Add Dark Gengar To Collection")
+      expect(current_path).to eq("/users/#{@user_1.id}/cards/#{@card.card_id}/owned-cards/new")
+
     end
   end
 end
