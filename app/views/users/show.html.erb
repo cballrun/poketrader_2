@@ -14,6 +14,9 @@
     Set: <%= card.set_name %> <br>
     Condition: <%= owned_card.condition %> <br>
     Value: <%= card.market_value  %> <br>
+    <% if owned_card.condition_image.attached? %>
+      <image src="<%=(url_for(owned_card.condition_image))%>">
+    <%end %>
     </div>
   <% end %>
 

@@ -11,7 +11,11 @@
 
     <%= f.label :language, "Language" %>
     <%= f.text_field :language %>
+
+    <%= f.label "Card Image" %>
+    <%= f.file_field :condition_image %>
     <br>
     <%= f.submit "Add Card" %>
   <% end %>
 </div>
+
