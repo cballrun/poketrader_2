@@ -6,12 +6,16 @@
 
 <section id="user_cards">
   <% @cards.each do |card| %>
+    <div id="card_<%=card.card_id%>" >
+    <% owned_card = @owned_cards.where(card_id: card.card_id).first %>
+    <br>
     Name: <%= card.card_name %> <br>
     Type: <%= card.supertype %> <br>
     Set: <%= card.set_name %> <br>
-    Condition: <%  %>
-    Value:
-    <% end %>
+    Condition: <%= owned_card.condition %> <br>
+    Value: <%= card.market_value  %> <br>
+    </div>
+  <% end %>
 
 
 </section>
