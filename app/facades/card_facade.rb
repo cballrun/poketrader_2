@@ -7,7 +7,7 @@ class CardFacade
   end
 
   def self.get_cards_by_name(name)
-    cards= CardService.search_cards_by_name(name)
+    cards = CardService.search_cards_by_name(name)
     cards[:data].map do |card|
       Card.new(card)
     end

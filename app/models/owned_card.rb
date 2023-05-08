@@ -7,8 +7,13 @@ class OwnedCard < ApplicationRecord
   validates_presence_of :language
 
   def match_to_called_card(card_id)
-    binding.pry
-    OwnedCard.where(card_id: card_id)
+    owned_cards = []
+    user.owned_cards.each do |owned_card|
+      if owned_card.card_id == card_id
+        owned_cards << owned_card
+      end
+    end
+    owned_cards
   end
 
 end
