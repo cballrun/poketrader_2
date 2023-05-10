@@ -10,7 +10,19 @@ class OwnedCardsController < ApplicationController
   end
 
   def edit
-    
+    @user = User.find(params[:user_id])
+    @card = @user.owned_cards.where(card_id: params[:card_id]).first
+  end
+
+  def update
+    user = User.find(params[:user_id])
+    card = user.owned_cards.where(card_id: params[:card_id]).first
+    if params[:condition_image]
+      card.update!(:condition_image => params[:condition_image])
+      redirect_to user_path(user.id)
+    else
+      redirect_to "/users/#{user.id}/cards/#{card.card_id}/owned-cards/edit"
+    end
   end
 
   private 
