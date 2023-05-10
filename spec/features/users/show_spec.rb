@@ -37,6 +37,10 @@ RSpec.describe 'the User Show Page', vcr: { record: :new_episodes } do
         end
       end
     end
+
+    it 'has a button to add an image for cards that do not have images' do
+      
+    end
   end
 
 end

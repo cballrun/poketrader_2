@@ -16,6 +16,8 @@
     Value: <%= card.market_value  %> <br>
     <% if owned_card.condition_image.attached? %>
       <img src="<%=(url_for(owned_card.condition_image))%>" alt="<%= card.card_name %>" style="width:100px;height:150px;" >
+    <% else %>
+      <%= button_to "Add Image Of Your #{card.card_name}", "/users/#{@user.id}/cards/#{card.card_id}/owned-cards/edit", method: :get %>
     <%end %>
     </div>
   <% end %>

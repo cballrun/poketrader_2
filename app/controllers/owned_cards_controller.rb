@@ -9,6 +9,10 @@ class OwnedCardsController < ApplicationController
     redirect_to user_path(params[:user_id])
   end
 
+  def edit
+    
+  end
+
   private 
 
   def owned_card_params
