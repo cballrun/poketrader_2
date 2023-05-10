@@ -4,7 +4,7 @@ RSpec.describe 'the Add Owned CardPage', vcr: { record: :new_episodes } do
 
   describe 'owned_card creation' do
     it 'has a form to create an owned card' do
-      user = User.create!(email: 'misty@ceruleangym.org', name: 'Misty')
+      user = create(:user)
       visit "/users/#{user.id}/cards/col1-33/owned-cards/new"
       expect(page).to have_content('Add Call of Legends Snorlax to your collection')
       expect(find('form')).to have_content('Condition')
@@ -14,7 +14,7 @@ RSpec.describe 'the Add Owned CardPage', vcr: { record: :new_episodes } do
 
     context 'given valid data' do
       it 'the form creates an owned card with the correct attributes and user' do
-        user = User.create!(email: 'misty@ceruleangym.org', name: 'Misty')
+        user = create(:user)
         visit "/users/#{user.id}/cards/col1-33/owned-cards/new"
 
         fill_in "Condition", with: "MP"

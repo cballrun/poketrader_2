@@ -5,8 +5,13 @@ class OwnedCardsController < ApplicationController
 
   def create
     user = User.find(params[:user_id])
-    OwnedCard.create!(user: user, card_id: params[:card_id], condition: params[:condition], language: params[:language])
+    user.owned_cards.create!(owned_card_params)
     redirect_to user_path(params[:user_id])
   end
 
+  private 
+
+  def owned_card_params
+    params.permit(:card_id, :condition, :language, :condition_image)
+  end
 end
