@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 02 May 2023 03:46:22 GMT
+      - Mon, 08 May 2023 22:38:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Etag:
-      - W/"42b3d547cee8ef3330f23a5c644f3e98"
+      - W/"4f22b59597b07ee7a673cfb71ced546c"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Vary:
@@ -43,21 +43,21 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - c2466cc2-2b43-4ee8-acce-98b39da91918
+      - 5ccccc1c-08f9-4dc4-8386-a21d4b1eef62
       X-Runtime:
-      - '0.081497'
+      - '0.082817'
       X-Xss-Protection:
       - 1; mode=block
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fPWUNGKqALLtVPWnTVPTJSSrdIMCFCRP6Q4MXijZL5V0IhGaV2ZQNUGKMSQ0ZH2uAuNezWhweYQIzbsi1kG1c5CWwBPOFXlIm5AhELWl6YLB1jP2a%2BkHH391jd8LV%2FrnVW05VZmI7mtY%2BXPUzRsB"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wXTvHT9GYUhNunreJkdOVZC%2F5yR70OXRDm9kGCSCJE%2B5SGM73mEFX%2BG9gabS9JgzuJtyCmheO7AH8L08mTzsNmW0jKmUt8Q8ny144JFv98oiWpE%2Fta9KR2ti6jf%2Bbsdl%2B0l8rbv%2B8K%2Fr1W6TLOoR"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7c0d46d8ebbe453d-ATL
+      - 7c4531f62978b06f-ATL
     body:
       encoding: UTF-8
       string: '{"data":{"id":"xy1-1","name":"Venusaur-EX","supertype":"Pokémon","subtypes":["Basic","EX"],"hp":"180","types":["Grass"],"evolvesTo":["M
@@ -66,6 +66,6 @@ http_interactions:
         opponent''s Active Pokémon is now Poisoned."},{"name":"Jungle Hammer","cost":["Grass","Grass","Colorless","Colorless"],"convertedEnergyCost":4,"damage":"90","text":"Heal
         30 damage from this Pokémon."}],"weaknesses":[{"type":"Fire","value":"×2"}],"retreatCost":["Colorless","Colorless","Colorless","Colorless"],"convertedRetreatCost":4,"set":{"id":"xy1","name":"XY","series":"XY","printedTotal":146,"total":146,"legalities":{"unlimited":"Legal","expanded":"Legal"},"ptcgoCode":"XY","releaseDate":"2014/02/05","updatedAt":"2018/03/04
         10:35:00","images":{"symbol":"https://images.pokemontcg.io/xy1/symbol.png","logo":"https://images.pokemontcg.io/xy1/logo.png"}},"number":"1","artist":"Eske
-        Yoshinob","rarity":"Rare Holo EX","nationalPokedexNumbers":[3],"legalities":{"unlimited":"Legal","expanded":"Legal"},"images":{"small":"https://images.pokemontcg.io/xy1/1.png","large":"https://images.pokemontcg.io/xy1/1_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/xy1-1","updatedAt":"2023/05/01","prices":{"holofoil":{"low":2.48,"mid":3.99,"high":42.35,"market":3.66,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/xy1-1","updatedAt":"2023/05/01","prices":{"averageSellPrice":6.25,"lowPrice":2.46,"trendPrice":5.62,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":4.37,"lowPriceExPlus":3.5,"avg1":5.0,"avg7":6.64,"avg30":5.28,"reverseHoloAvg1":3.99,"reverseHoloAvg7":4.56,"reverseHoloAvg30":4.47}}}}'
-  recorded_at: Tue, 02 May 2023 03:46:22 GMT
+        Yoshinob","rarity":"Rare Holo EX","nationalPokedexNumbers":[3],"legalities":{"unlimited":"Legal","expanded":"Legal"},"images":{"small":"https://images.pokemontcg.io/xy1/1.png","large":"https://images.pokemontcg.io/xy1/1_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/xy1-1","updatedAt":"2023/05/08","prices":{"holofoil":{"low":2.48,"mid":4.0,"high":40.23,"market":3.63,"directLow":2.85}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/xy1-1","updatedAt":"2023/05/08","prices":{"averageSellPrice":5.89,"lowPrice":2.46,"trendPrice":5.62,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":4.37,"lowPriceExPlus":3.5,"avg1":5.0,"avg7":6.64,"avg30":5.28,"reverseHoloAvg1":3.99,"reverseHoloAvg7":4.56,"reverseHoloAvg30":4.47}}}}'
+  recorded_at: Mon, 08 May 2023 22:38:49 GMT
 recorded_with: VCR 6.1.0

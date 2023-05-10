@@ -21,7 +21,7 @@ RSpec.describe 'the User Show Page', vcr: { record: :new_episodes } do
 
     it 'has button to take you to card search page' do
       expect(page).to have_button("Search Cards")
-      click_button
+      click_button("Search Cards")
       expect(current_path).to eq("/users/#{@user_1.id}/search")
 
     end
@@ -34,6 +34,16 @@ RSpec.describe 'the User Show Page', vcr: { record: :new_episodes } do
           expect(page).to have_content("#{@card_1.condition}")
           expect(page).to_not have_content("Erika's Ivysaur")
           expect(page).to_not have_content("Cyndaquil")
+        end
+      end
+    end
+
+    it 'has a button to add an image for cards that do not have images' do
+      within "#user_cards" do
+        within "#card_#{@card_1.card_id}" do
+          expect(page).to have_button("Add Image Of Your Dark Gengar")
+          click_button("Add Image Of Your Dark Gengar")
+          expect(current_path).to eq("/users/#{@user_1.id}/cards/#{@card_1.card_id}/owned-cards/edit")
         end
       end
     end

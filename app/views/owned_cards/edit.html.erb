@@ -1,0 +1,8 @@
+
+  <%= form_with url: "/users/#{@user.id}/cards/#{@card.card_id}/owned-cards", method: :patch, local: true do |f| %>
+
+    <%= f.label "Add Image" %> <br>
+    <%= f.file_field :condition_image %> <br> <br>
+
+    <%= f.submit "Submit"%> 
+  <%end%>

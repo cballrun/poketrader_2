@@ -1,5 +1,7 @@
 class OwnedCard < ApplicationRecord
   belongs_to :user
+  has_one_attached :condition_image
+
   enum condition: [:NM, :LP, :MP, :HP, :DMG]
   
   validates_presence_of :card_id

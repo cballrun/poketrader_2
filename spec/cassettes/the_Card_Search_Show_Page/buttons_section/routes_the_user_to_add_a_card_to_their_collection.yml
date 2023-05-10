@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 May 2023 03:55:01 GMT
+      - Mon, 08 May 2023 22:37:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Etag:
-      - W/"580e51e6b2d04b6f95fb523b62582109"
+      - W/"92e75a82cbc1fc351f222d1763b430fd"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Vary:
@@ -43,21 +43,21 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - a5c7647d-a578-4fbf-80b5-2dc3687ac227
+      - 46a6758a-c502-42fa-83a1-ec8b94bdb983
       X-Runtime:
-      - '0.096665'
+      - '0.080127'
       X-Xss-Protection:
       - 1; mode=block
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PcbZoQLQ133KfzVfHGZvIoSybgnq01xRqt32ffsn7ga1WBS66HgFq7ukA6yGPli0yezgOS8IcDA%2BHBOZSklFNIGLAKYgUJA4zQmGC341gM60hYzLixb8AVT%2BUkcg%2B6FFk8YEWMNp3LOA%2B6XqO4TN"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=veWQF4eWGmFUMbF7aZK%2BgcbQC3ta0PSeL%2FUZJrAzEBAOr9vhTSTyI0PvIHot%2Fl6j4j%2FGi9d%2FFJPSRgyoM3YWCO51U%2BG07O1fbTf6jKQKN4nwHhY0bpAxJi4IBDYUaCDyujKWcZeDOyNHmQCD1w%2Bn"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7c1590e539424577-ATL
+      - 7c452fc56c26b129-ATL
     body:
       encoding: UTF-8
       string: '{"data":{"id":"neo4-6","name":"Dark Gengar","supertype":"Pokémon","subtypes":["Stage
@@ -73,8 +73,8 @@ http_interactions:
         Destiny","series":"Neo","printedTotal":105,"total":113,"legalities":{"unlimited":"Legal"},"ptcgoCode":"N4","releaseDate":"2002/02/28","updatedAt":"2020/09/25
         10:09:00","images":{"symbol":"https://images.pokemontcg.io/neo4/symbol.png","logo":"https://images.pokemontcg.io/neo4/logo.png"}},"number":"6","artist":"Aya
         Kusube","rarity":"Rare Holo","flavorText":"It absorbs the heat in the air
-        around it. If you suddenly feel cold, it''s because a Gengar has appeared.","nationalPokedexNumbers":[94],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/neo4/6.png","large":"https://images.pokemontcg.io/neo4/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/neo4-6","updatedAt":"2023/05/02","prices":{"1stEditionHolofoil":{"low":295.0,"mid":399.0,"high":419.99,"market":399.95,"directLow":null},"unlimitedHolofoil":{"low":146.57,"mid":148.78,"high":285.5,"market":147.92,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/neo4-6","updatedAt":"2023/05/02","prices":{"averageSellPrice":51.65,"lowPrice":12.99,"trendPrice":41.34,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":46.87,"lowPriceExPlus":37.0,"avg1":42.0,"avg7":53.75,"avg30":42.09,"reverseHoloAvg1":24.0,"reverseHoloAvg7":44.45,"reverseHoloAvg30":36.93}}}}'
-  recorded_at: Wed, 03 May 2023 03:55:01 GMT
+        around it. If you suddenly feel cold, it''s because a Gengar has appeared.","nationalPokedexNumbers":[94],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/neo4/6.png","large":"https://images.pokemontcg.io/neo4/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/neo4-6","updatedAt":"2023/05/08","prices":{"1stEditionHolofoil":{"low":295.0,"mid":399.0,"high":419.99,"market":399.95,"directLow":null},"unlimitedHolofoil":{"low":146.56,"mid":148.78,"high":285.5,"market":147.92,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/neo4-6","updatedAt":"2023/05/08","prices":{"averageSellPrice":31.38,"lowPrice":17.5,"trendPrice":40.97,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":46.87,"lowPriceExPlus":37.0,"avg1":24.9,"avg7":50.59,"avg30":40.47,"reverseHoloAvg1":24.0,"reverseHoloAvg7":44.45,"reverseHoloAvg30":36.93}}}}'
+  recorded_at: Mon, 08 May 2023 22:37:19 GMT
 - request:
     method: get
     uri: https://api.pokemontcg.io/v2/cards/neo4-6
@@ -94,7 +94,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 May 2023 03:55:03 GMT
+      - Mon, 08 May 2023 22:37:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -104,7 +104,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Etag:
-      - W/"580e51e6b2d04b6f95fb523b62582109"
+      - W/"92e75a82cbc1fc351f222d1763b430fd"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Vary:
@@ -118,21 +118,21 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 164f1d26-faf6-4446-8309-3a4cc136c6d5
+      - 7a6200e7-4984-410e-b872-1f30e9f27e12
       X-Runtime:
-      - '0.087816'
+      - '0.082682'
       X-Xss-Protection:
       - 1; mode=block
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j2N63czWXBHEPAOaQ3DIjaVsVcle6rOlh6pdq2ivA083yAOeicdrzk1WOE7YGccuuyBFace5pKHaYlEv1%2BvD6ABeX0WpWTJPgSzLEKkTmYZMbyILqTZVTvMeMzfQy62HEzs8t%2BWkHO4QuMhHlleX"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yme%2FlS1u8PzGui%2B4YizHK%2FW0glAPUGBLvmI2P8d%2F%2FKfPScYa%2B1e3OSRGuzn4nmCVsHTm1mGqFPdoBjPRDoksfTfRQtjV%2BhtAKReakeB9xnBCZuv93PkWLG82BAy2NpOGkOcVdPLg4nEs%2FE%2FgOcig"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7c1590ef79a6184b-ATL
+      - 7c452fc699d3ad0a-ATL
     body:
       encoding: UTF-8
       string: '{"data":{"id":"neo4-6","name":"Dark Gengar","supertype":"Pokémon","subtypes":["Stage
@@ -148,8 +148,8 @@ http_interactions:
         Destiny","series":"Neo","printedTotal":105,"total":113,"legalities":{"unlimited":"Legal"},"ptcgoCode":"N4","releaseDate":"2002/02/28","updatedAt":"2020/09/25
         10:09:00","images":{"symbol":"https://images.pokemontcg.io/neo4/symbol.png","logo":"https://images.pokemontcg.io/neo4/logo.png"}},"number":"6","artist":"Aya
         Kusube","rarity":"Rare Holo","flavorText":"It absorbs the heat in the air
-        around it. If you suddenly feel cold, it''s because a Gengar has appeared.","nationalPokedexNumbers":[94],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/neo4/6.png","large":"https://images.pokemontcg.io/neo4/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/neo4-6","updatedAt":"2023/05/02","prices":{"1stEditionHolofoil":{"low":295.0,"mid":399.0,"high":419.99,"market":399.95,"directLow":null},"unlimitedHolofoil":{"low":146.57,"mid":148.78,"high":285.5,"market":147.92,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/neo4-6","updatedAt":"2023/05/02","prices":{"averageSellPrice":51.65,"lowPrice":12.99,"trendPrice":41.34,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":46.87,"lowPriceExPlus":37.0,"avg1":42.0,"avg7":53.75,"avg30":42.09,"reverseHoloAvg1":24.0,"reverseHoloAvg7":44.45,"reverseHoloAvg30":36.93}}}}'
-  recorded_at: Wed, 03 May 2023 03:55:03 GMT
+        around it. If you suddenly feel cold, it''s because a Gengar has appeared.","nationalPokedexNumbers":[94],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/neo4/6.png","large":"https://images.pokemontcg.io/neo4/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/neo4-6","updatedAt":"2023/05/08","prices":{"1stEditionHolofoil":{"low":295.0,"mid":399.0,"high":419.99,"market":399.95,"directLow":null},"unlimitedHolofoil":{"low":146.56,"mid":148.78,"high":285.5,"market":147.92,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/neo4-6","updatedAt":"2023/05/08","prices":{"averageSellPrice":31.38,"lowPrice":17.5,"trendPrice":40.97,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":46.87,"lowPriceExPlus":37.0,"avg1":24.9,"avg7":50.59,"avg30":40.47,"reverseHoloAvg1":24.0,"reverseHoloAvg7":44.45,"reverseHoloAvg30":36.93}}}}'
+  recorded_at: Mon, 08 May 2023 22:37:19 GMT
 - request:
     method: get
     uri: https://api.pokemontcg.io/v2/cards/neo4-6
@@ -169,7 +169,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 May 2023 04:51:25 GMT
+      - Mon, 08 May 2023 22:37:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -179,7 +179,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Etag:
-      - W/"580e51e6b2d04b6f95fb523b62582109"
+      - W/"92e75a82cbc1fc351f222d1763b430fd"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Vary:
@@ -193,21 +193,21 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 22387f3b-4a47-4976-8ada-5313bf1a04ba
+      - fed680b9-561c-4468-aa7e-7ae91f0114b9
       X-Runtime:
-      - '0.087663'
+      - '0.089846'
       X-Xss-Protection:
       - 1; mode=block
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jRa%2BfIcpoWXMvWh1oJiIw6soencGBp3qIy%2FfD6h%2Frg6W5imgiKpZVGWgohRFHkltjGYjvQ0tDs951ZbrLUpq9I0Edw%2FVjtxV5xDy%2FcIJQagnkyjFQ1QMRbsGfLL52rFYPpOs4Ixlktt%2BBa6bOTWM"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6M24TdznL4kWWBg3f5kqs9DrMumu%2FZ2s7hROAFuSOUPNL1835n9Cx%2BdGnP%2Br1o4g809AKtzk6a20IpaZhYaGdp2mIOXJuCL4HwoVBRLDqqfh%2FrdqUs%2BsF9B0Pj0dGwjpesHW%2BtawbXG%2BHu5w2%2FRq"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7c15e3828bf92439-ATL
+      - 7c452fc7e93544f1-ATL
     body:
       encoding: UTF-8
       string: '{"data":{"id":"neo4-6","name":"Dark Gengar","supertype":"Pokémon","subtypes":["Stage
@@ -223,6 +223,6 @@ http_interactions:
         Destiny","series":"Neo","printedTotal":105,"total":113,"legalities":{"unlimited":"Legal"},"ptcgoCode":"N4","releaseDate":"2002/02/28","updatedAt":"2020/09/25
         10:09:00","images":{"symbol":"https://images.pokemontcg.io/neo4/symbol.png","logo":"https://images.pokemontcg.io/neo4/logo.png"}},"number":"6","artist":"Aya
         Kusube","rarity":"Rare Holo","flavorText":"It absorbs the heat in the air
-        around it. If you suddenly feel cold, it''s because a Gengar has appeared.","nationalPokedexNumbers":[94],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/neo4/6.png","large":"https://images.pokemontcg.io/neo4/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/neo4-6","updatedAt":"2023/05/02","prices":{"1stEditionHolofoil":{"low":295.0,"mid":399.0,"high":419.99,"market":399.95,"directLow":null},"unlimitedHolofoil":{"low":146.57,"mid":148.78,"high":285.5,"market":147.92,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/neo4-6","updatedAt":"2023/05/02","prices":{"averageSellPrice":51.65,"lowPrice":12.99,"trendPrice":41.34,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":46.87,"lowPriceExPlus":37.0,"avg1":42.0,"avg7":53.75,"avg30":42.09,"reverseHoloAvg1":24.0,"reverseHoloAvg7":44.45,"reverseHoloAvg30":36.93}}}}'
-  recorded_at: Wed, 03 May 2023 04:51:25 GMT
+        around it. If you suddenly feel cold, it''s because a Gengar has appeared.","nationalPokedexNumbers":[94],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/neo4/6.png","large":"https://images.pokemontcg.io/neo4/6_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/neo4-6","updatedAt":"2023/05/08","prices":{"1stEditionHolofoil":{"low":295.0,"mid":399.0,"high":419.99,"market":399.95,"directLow":null},"unlimitedHolofoil":{"low":146.56,"mid":148.78,"high":285.5,"market":147.92,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/neo4-6","updatedAt":"2023/05/08","prices":{"averageSellPrice":31.38,"lowPrice":17.5,"trendPrice":40.97,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.0,"reverseHoloTrend":46.87,"lowPriceExPlus":37.0,"avg1":24.9,"avg7":50.59,"avg30":40.47,"reverseHoloAvg1":24.0,"reverseHoloAvg7":44.45,"reverseHoloAvg30":36.93}}}}'
+  recorded_at: Mon, 08 May 2023 22:37:20 GMT
 recorded_with: VCR 6.1.0
