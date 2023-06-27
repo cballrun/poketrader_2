@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 May 2023 22:39:34 GMT
+      - Tue, 27 Jun 2023 01:11:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Etag:
-      - W/"6cf01fd9dfa0029bd7dfba9886d0db05"
+      - W/"55e1963442ad40f238e4c671c754a12d"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Vary:
@@ -43,30 +43,30 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 2808a8df-8fa7-4999-890c-4878a95189a0
+      - b19c1869-ee7a-4a8d-903f-779ed6fceea7
       X-Runtime:
-      - '0.096906'
+      - '0.079925'
       X-Xss-Protection:
       - 1; mode=block
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UCQMviQr%2FB5bVfDX%2BIM3dJuCwpbWpts%2F3DIkXj9Xxw560fbTfPonw2nHojuyC%2B92PHwO7sPtDmWoKTw4OktUCicov1NcOMTjkQqaFexp4XDvTR7qUBv3h%2FK5uN%2BJywNZGr8eZiOmA6%2B2hQmJ55MW"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4g%2FPMd7HvKMhLmK2lM0DpPGqNb0D8gThScyjDmqF3gcVZ%2FjtBAe33SwebeRDgFD0yDvDdFrtbOlV1GgJvgAjfcIy4bZ1oz7MMQFgc17Ukd0N0ojXjMTCWj7hAjuKQskq0d4B"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7c45330ed8490713-ATL
+      - 7dd9d0edbd781d6e-ATL
     body:
       encoding: UTF-8
       string: '{"data":{"id":"col1-33","name":"Snorlax","supertype":"Pokémon","subtypes":["Basic"],"hp":"100","types":["Colorless"],"attacks":[{"name":"Layabout","cost":["Colorless","Colorless","Colorless"],"convertedEnergyCost":3,"damage":"","text":"Remove
         all damage counters from Snorlax. Snorlax can''t use Layabout during your
         next turn."},{"name":"Clomp Clomp Clobber","cost":["Colorless","Colorless","Colorless","Colorless"],"convertedEnergyCost":4,"damage":"80","text":"Put
         1 Energy card attached to Snorlax in the Lost Zone."}],"weaknesses":[{"type":"Fighting","value":"×2"}],"retreatCost":["Colorless","Colorless","Colorless","Colorless"],"convertedRetreatCost":4,"set":{"id":"col1","name":"Call
-        of Legends","series":"HeartGold & SoulSilver","printedTotal":106,"total":106,"legalities":{"unlimited":"Legal"},"ptcgoCode":"CL","releaseDate":"2011/02/09","updatedAt":"2018/03/04
+        of Legends","series":"HeartGold & SoulSilver","printedTotal":95,"total":106,"legalities":{"unlimited":"Legal"},"ptcgoCode":"CL","releaseDate":"2011/02/09","updatedAt":"2018/03/04
         10:35:00","images":{"symbol":"https://images.pokemontcg.io/col1/symbol.png","logo":"https://images.pokemontcg.io/col1/logo.png"}},"number":"33","artist":"Kent
         Kanetsuna","rarity":"Rare","flavorText":"Its stomach''s digestive juices can
-        dissolve any kind of poison. It can even eat things off the ground.","nationalPokedexNumbers":[143],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/col1/33.png","large":"https://images.pokemontcg.io/col1/33_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/col1-33","updatedAt":"2023/05/08","prices":{"normal":{"low":4.75,"mid":6.0,"high":12.99,"market":8.21,"directLow":null},"reverseHolofoil":{"low":10.65,"mid":15.5,"high":40.0,"market":24.63,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/col1-33","updatedAt":"2023/05/08","prices":{"averageSellPrice":4.91,"lowPrice":0.2,"trendPrice":36.64,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.5,"reverseHoloTrend":19.71,"lowPriceExPlus":0.99,"avg1":2.9,"avg7":51.4,"avg30":24.65,"reverseHoloAvg1":20.0,"reverseHoloAvg7":18.34,"reverseHoloAvg30":11.12}}}}'
-  recorded_at: Mon, 08 May 2023 22:39:34 GMT
+        dissolve any kind of poison. It can even eat things off the ground.","nationalPokedexNumbers":[143],"legalities":{"unlimited":"Legal"},"images":{"small":"https://images.pokemontcg.io/col1/33.png","large":"https://images.pokemontcg.io/col1/33_hires.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/col1-33","updatedAt":"2023/06/26","prices":{"normal":{"low":3.74,"mid":4.94,"high":9.59,"market":8.09,"directLow":2.76},"reverseHolofoil":{"low":9.38,"mid":14.99,"high":40.0,"market":27.51,"directLow":null}}},"cardmarket":{"url":"https://prices.pokemontcg.io/cardmarket/col1-33","updatedAt":"2023/06/26","prices":{"averageSellPrice":8.84,"lowPrice":0.2,"trendPrice":11.51,"germanProLow":0.0,"suggestedPrice":0.0,"reverseHoloSell":0.0,"reverseHoloLow":0.5,"reverseHoloTrend":18.15,"lowPriceExPlus":0.99,"avg1":9.0,"avg7":9.89,"avg30":25.58,"reverseHoloAvg1":4.49,"reverseHoloAvg7":15.77,"reverseHoloAvg30":11.2}}}}'
+  recorded_at: Tue, 27 Jun 2023 01:11:27 GMT
 recorded_with: VCR 6.1.0
